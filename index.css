@@ -1,0 +1,293 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+.Navbar{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px , rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    padding:10px;
+   
+}
+.links{
+    display: flex;
+    column-gap:20px;
+  
+   
+}
+.Nav-link{
+    cursor: pointer;
+    margin:10px;
+    
+}
+.Nav-link{
+    text-decoration: none;
+  
+
+}
+.Nav-link a{
+    text-decoration: none;
+}
+.threebars{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .threebars{
+        display:block;
+    }
+    .links{
+        display:none;
+    }
+    
+}
+.sidepopup{
+    background-color: black;
+    width:300px;
+    height:600px;
+    position: fixed;
+    top:0%;
+    left:-80%;
+    color: aqua;
+    padding: 20px;
+    transition: 2s;
+}
+.side-link{
+    padding:15px;
+    transition: 2s;
+  
+}
+.side-link a{
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+}
+.xbar{
+    margin-left: 280px;
+    cursor:pointer;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    margin-top:120px;
+    gap:50px;
+}
+.heading img{
+    width:300px;
+    height:300px;
+}
+.heading button{
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    background-color: black;
+    color:white;
+    margin-top:20px;
+    cursor:pointer;
+}
+@media screen and (max-width:700px){
+    .image{
+        display:none;
+    }
+    
+}
+.secondpage{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+}
+.page1{
+    margin-left:20px;
+}
+.page2{
+    margin-top:20px;;
+}
+
+.box{
+    display:flex;
+    justify-content: space-between;
+
+}
+.boxone{
+    width:380px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding:20px;
+    margin-left:10px;
+    
+}
+.boxtwo{
+    width:380px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding:20px;
+}
+.boxthree{
+    width:380px;
+    margin-top: 50px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding:20px;
+    margin-right:10px;
+}
+
+@media screen and (max-width:700px)
+{
+    .secondpage{
+        display:none;
+    }
+    .box{
+        flex-direction:column;
+    }
+}
+.Arrival{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.third{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+   
+.imagesec{
+    position: relative;
+    flex-basis:20%;
+}
+.third button{
+    padding-right:20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:black;
+    position: absolute;
+    top:50%;
+    left:18%;
+    border-radius:15px;
+    cursor: pointer;
+   
+}
+.mostwanted{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.collection{
+    position:relative;
+    flex-basis:20%;
+
+}
+.mostwanted button{
+    padding-right:20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:black;
+    position: absolute;
+    top:50%;
+    left:18%;
+    border-radius:15px;
+    cursor: pointer;
+}
+.last{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:40px;
+}
+.last p{
+    margin-top:10px;
+}
+.last input{
+    margin-top:10px;
+    padding:12px;
+    width:70%;
+    border-radius:10px;
+    border:solid black 2px;
+    margin-left:100px;
+
+}
+.last button{
+    margin-top:20px;
+    margin-bottom:40px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px ;
+    padding-bottom:10px;
+    color:white;
+    background-color: black;
+    border-radius:10px;
+    cursor: pointer;
+} 
+.bottom{
+    margin-top:30px;
+    background-color: black;
+    color:white;
+    padding:30px;
+}
+.bottom h1,p,i{
+    margin-left:20px;
+    margin:5px;
+}
+
+@media screen and (max-width:600px){
+    .last input{
+        width:25%;
+        margin-left:5%;
+    }
+}
+.nos2-top{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px , rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   margin-bottom:5px;
+    margin-top:5px;
+}
+.nos2-top1{
+    display:flex;
+}
+.nos2-top1 a{
+    text-decoration:none;
+}
+.search-box{
+    margin-top:20px;
+}
+.search-box input{
+    width:70%;
+    border-radius:10px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left:150px;
+    font-size: medium;
+    
+}
+.search-img{
+    margin:30px;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:black;
+}
+.one{
+    flex-basis:20%;
+}
+@media screen and (max-width:700px){
+    .search-box input{
+        width:50%;
+        margin-left:90px;
+
+    }
+}
